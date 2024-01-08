@@ -73,6 +73,14 @@ button:hover{
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
 }
+.login label{
+	color: #4A55A2;
+	transform: scale(.6);
+}
+
+#trf:checked ~ .login{
+	transform: translateY(-500px);
+}
 
 
 
